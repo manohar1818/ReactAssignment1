@@ -13,9 +13,8 @@ const InputField = ({ value, onChange,ref }) => {
   const classes = useStyles();
 
   return (
-    <div className={classes.styleInputFields} data-testid="inputField">
-      <Input data-testid="inputAtom"
-        //defaultValue={value}
+    
+      <Input data-testid="inputAtom" className={classes.styleInputFields}
         inputProps={{ "aria-label": "description" }}
         style={{ color: "#000" }}
         onChange={onChange}
@@ -23,7 +22,7 @@ const InputField = ({ value, onChange,ref }) => {
         inputProps={{ "data-testid": value }}
         
       />
-    </div>
+  
   );
 };
 

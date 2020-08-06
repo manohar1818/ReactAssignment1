@@ -11,13 +11,10 @@ const useStyles = makeStyles((theme) => ({
 
 const CustomButton = ({ value, onClick ,disabled}) => {
   const classes = useStyles();
-
   return (
-    <div className={classes.button} >
-      <Button onClick={onClick} variant="contained" color="primary" disabled={disabled} data-testid="button">
-        <Typography variant="button"> {value}</Typography>
+      <Button onClick={onClick} variant="contained" color="primary" disabled={disabled} >
+         {value}
       </Button>
-    </div>
   );
 };
 

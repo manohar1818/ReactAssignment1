@@ -5,12 +5,12 @@ import MainComponentRouter from "../../components/organisms/o_router/o_router";
 
 const HomePage = () => {
   return (
-    <div>
+   
       <HomeTemplate
         header={<Header></Header>}
         mainContent={<MainComponentRouter></MainComponentRouter>}
       ></HomeTemplate>
-    </div>
+    
   );
 };
 

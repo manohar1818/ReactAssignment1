@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   button: {
     
     paddingTop: "50px",
-    paddingLeft: "30%",
+    paddingLeft: "50%",
     paddingBottom: "20px",
   },
   button1: {

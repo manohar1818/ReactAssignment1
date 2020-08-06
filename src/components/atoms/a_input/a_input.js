@@ -14,9 +14,9 @@ const useStyles = makeStyles((theme) => ({
 export default function InputBox(props) {
   const classes = useStyles();
   return (
-    <div className={classes.form}>
+    
      
-      <Input
+      <Input className={classes.form}
         required={props.required}
         className={classes.input}
         type={props.type}
@@ -25,6 +25,6 @@ export default function InputBox(props) {
         onChange={props.onChange}
         defaultValue={props.defaultValue}
       />
-    </div>
+    
   );
 }
